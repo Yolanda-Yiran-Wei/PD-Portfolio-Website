@@ -131,8 +131,19 @@ Things that you would like us to know:
 Now
 1. Press Ctrl + O (WriteOut)
 2. Change the filename to self_introduction.txt
-3. Press Ctrl + X (Exit nano text  editor)
+3. Press Ctrl + X (Exit nano text editor)
 ---------------------------------------------------------
 Congrats on Finishing Homework 01!!!!! Welcome to PD!!!!!
 ---------------------------------------------------------
+Assignment Submission Workflow:
 
+To add changes to the working directory:
+	- $ git add . #stage all changes
+	- $ git add self_introduction.txt # to only stage changes in the mentioned file
+To record staged changes to the repository history:
+	- $ git commit -m"<informative message>"
+ 	- EX: $ git commit -m"finished homework 01"
+To push local commits to remote repository:
+	- $ git push origin main # push the changes to main branch
+To check status of your current working tree:
+	- $ git status
