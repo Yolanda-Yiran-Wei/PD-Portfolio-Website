@@ -52,11 +52,9 @@ Homework Instructions:
 		- Switch to main:
 		$ git switch main
 		$ git pull upstream main
-	- Create a new branch for each this week's homework with format: firstname-week01
-		- Ex: jenny-week01
-		- Try creating the branch yourself! using the instruction 
-		  about switch branches above.
-	- Now you are swiched to the branch for week 01! Congrats!
+	- Change directory to the current week
+		$ cd week01
+You are now on the main branch under the directory of week01! Congrats!
 -------------------------------------------------------------------------
 - Files:
 	- Following the instructons above, you should have created your 
