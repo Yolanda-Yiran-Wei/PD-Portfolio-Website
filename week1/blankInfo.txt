@@ -1,0 +1,116 @@
+Week 1 - Git/GitHub
+
+Objective:
+- Learn basic Git commands
+- Understand the working tree
+- Creating branches and resolving merge conflicts
+
+-------------------------------------------------------------------------
+Introduction:This repository serves as a skeleton repository where you can find blank homework assignments, which will be updated weekly. (This workflow is similar to how CS 61B handles assignments.)
+
+To begin, you will fork this repository into your personal GitHub account and work on assignments from there. Each week, you should pull the latest updates from the main repository to stay up to date with the homework.
+
+For submissions, please create a pull request from your fork to the main repository (PD-Assigments). This will allow us to review and grade your work.
+
+-------------------------------------------------------------------------
+Homework Instructions:
+- Set up Git:
+	- Fork the main repository (PD-Assignments) to create a copy in your own GitHub account (Click on the "Fork" button on the top-right corner of the page).
+	- Open Terminal
+	- Create a Folder for Open Project PD:
+		- EX:
+		$ cd
+		$ cd Desktop
+		$ mkdir OP-PD
+		$ cd OP-PD
+		- Check your path:
+		$ pwd
+		/Users/your_username/Desktop/OP-PD
+	- Clone the repository using: 
+		$ git clone https://github.com/YOUR_GITHUB_USERNAME/PD-Assigments.git
+	- Change directory to PD-Assignments:
+		$ cd PD-Assignments
+	- Set Upstream Remote:
+		$ git remote add upstream https://github.com/MAIN_REPO_OWNER/PD-Assigments.git 
+	- This would allow you to pull changes and new assignments from the PD repository and push changes to your own personal repository
+	- Since we already set up the repository, you do not need to run "git init", but if you are creating a new project or directory, you would initialize the Git repository with "git init"
+	- To switch to main branch & pull assignments:
+		- Switch branches: git switch branch-name / git checkout branch-name
+		- Switch to new branches: git switch -C branch-name / git checkout -b branch-name
+		- Switch to main:
+		$ git switch main
+		$ git pull upstream main
+	- Create a new branch for each this week's homework with format: firstname-week01
+		- Ex: jenny-week01
+		- Try creating the branch yourself! using the instruction about switch branches above.
+	- Now you are swiched to the branch for week 01! Congrats!
+-------------------------------------------------------------------------
+- Files:
+	- Following the instructons above, you should have created your personal repository and pull the assignment folder for week 1 including this file.
+	- Now here are some common commands for files:
+		- Display path: $ pwd
+		- Change directory: $ cd <directory-name>
+		- Create new directory: $ mkdir <directory-name>
+		- List files in a directory: $ ls
+		- Create a new file: $ touch <file-name>
+		- View contents of a file: $ cat <file-name>
+		- Copy a File: $ cp <source-file> <destination-file>
+		- Move a File: $ mv <source-file> <destination-directory>
+			- Ex: $ mv myfile.txt /home/user/documents/
+		- Rename a file: $ mv <old-file-name> <new-file-name>
+		- Delete a file: $ rm <file -name>
+	- Feel free to play around with all the commands in your week 1 branch!
+
+-------------------------------------------------------------------------
+Homework:
+	- Edit this blankInfo.txt and rename it to self_introduction.txt
+	- To edit text file in a text editor:
+		$ nano blankInfo.txt
+
+For your personal portfolio website, it’s important to showcase both your skills and personality! This text file will serve as a source for us to know you better and your personal portfolio website scratch space. We recommend taking this assignment seriously, as in the coming weeks, you’ll focus on website development and coding-heavy assignments. The information you write here can be directly used in future assignments! Additionally, feel free to include anything you would like us to know about you.
+
+Complete the text file, feel free to add new lines:
+
+-------------------------------------------------------------------------
+Self Introduction (required)
+
+Name:
+Pronouns:
+Major/Intended Major:
+Year:
+Dream Career:
+Hobbies:
+Skills:
+Goals:
+Favorite Food:
+Favorite Programming Language:
+Paragraph introducing yourself:
+What do you hope to gain from PD?:
+
+-------------------------------------------------------
+（Optional)
+Top Projects:
+- Project Name:
+- Short Description:
+- Skills/Technology Used:
+
+Experiences:
+What are some fun/ social topics you would be interested in conducting research on or creating data visualizations for?:
+Things that you would like us to know:
+
+--------------------------------------------------------
+(Challenge Question)
+
+- What is your favorite go-to place around Berkeley?:
+- Some fun ideas for social?:
+- When is your birthday?:
+- What is your favorite song?:
+---------------------------------------------------------
+Now
+1. Press Ctrl + O (WriteOut)
+2. Change the filename to self_introduction.txt
+3. Press Ctrl + X (Exit nano text  editor)
+---------------------------------------------------------
+Congrats on Finishing Homework 01!!!!! Welcome to PD!!!!!
+---------------------------------------------------------
+
