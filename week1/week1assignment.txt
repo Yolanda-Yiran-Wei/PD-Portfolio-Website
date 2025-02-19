@@ -1,5 +1,6 @@
 Week 1 - Git/GitHub
 
+
 Objective:
 - Learn basic Git commands
 - Understand the working tree
