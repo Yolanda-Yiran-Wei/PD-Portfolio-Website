@@ -78,7 +78,7 @@ You are now on the main branch under the directory of week1! Good job:)
 Homework:
 	- Edit this week1assignment.txt and rename it to firstname_introduction.txt
 	- To edit text file in a text editor:
-		$ nano blankInfo.txt
+		$ nano week1assignment.txt
 
 For your personal portfolio website, it’s important to showcase both your 
 skills and personality! This text file will serve as a source for us to 
