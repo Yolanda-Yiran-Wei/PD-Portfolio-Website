@@ -124,10 +124,7 @@ Things that you would like us to know:
 
 --------------------------------------------------------
 (Challenge Question)
-- What is your favorite go-to place around Berkeley?:
-- Some fun ideas for social?:  
-- When is your birthday?:
-- What is your favorite song?:
+- (hint: you can find the questions in previous versions)
 ---------------------------------------------------------
 Now
 1. Press Ctrl + O (WriteOut)
