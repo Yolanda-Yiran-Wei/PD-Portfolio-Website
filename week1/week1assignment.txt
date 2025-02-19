@@ -5,7 +5,6 @@ Objective:
 - Understand the working tree
 - Creating branches and resolving merge conflicts
 
-
 -------------------------------------------------------------------------
 Introduction: This repository serves as a skeleton repository where you 
 can find blank homework assignments, which will be updated weekly. (This 
