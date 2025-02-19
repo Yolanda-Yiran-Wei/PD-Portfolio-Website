@@ -15,12 +15,12 @@ and work on assignments from there. Each week, you should pull the latest
 updates from the main repository to stay up to date with the homework.
 
 For submissions, please create a pull request from your fork to the main 
-repository (PD-Assigments). This will allow us to review and grade your work.
+repository (PD-Portfolio-Website). This will allow us to review and grade your work.
 
 -------------------------------------------------------------------------
 Homework Instructions:
 - Set up Git:
-	- Fork the main repository (PD-Assignments) to create a copy in 
+	- Fork the main repository (PD-Portfolio-Website) to create a copy in 
 	  your own GitHub account (Click on the "Fork" button on the 
 	  top-right corner of the page).
 	- Open Terminal
@@ -34,11 +34,11 @@ Homework Instructions:
 		$ pwd
 		/Users/your_username/Desktop/OP-PD
 	- Clone the repository using: 
-		$ git clone https://github.com/YOUR_GITHUB_USERNAME/PD-Assigments.git
-	- Change directory to PD-Assignments:
-		$ cd PD-Assignments
+		$ git clone https://github.com/YOUR_GITHUB_USERNAME/PD-Portfolio-Website.git
+	- Change directory to PD-Portfolio-Website:
+		$ cd PD-Portfolio-Website
 	- Set Upstream Remote:
-		$ git remote add upstream https://github.com/MAIN_REPO_OWNER/PD-Assigments.git 
+		$ git remote add upstream https://github.com/Jennyl51/PD-Portfolio-Website 
 	- This would allow you to pull changes and new assignments from 
 	  the PD repository and push changes to your own personal repository
 	- Since we already set up the repository, you do not need to 
@@ -53,8 +53,8 @@ Homework Instructions:
 		$ git switch main
 		$ git pull upstream main
 	- Change directory to the current week
-		$ cd week01
-You are now on the main branch under the directory of week01! Congrats!
+		$ cd week1
+You are now on the main branch under the directory of week1! Good job:)
 -------------------------------------------------------------------------
 - Files:
 	- Following the instructons above, you should have created your 
@@ -72,11 +72,11 @@ You are now on the main branch under the directory of week01! Congrats!
 			- Ex: $ mv myfile.txt /home/user/documents/
 		- Rename a file: $ mv <old-file-name> <new-file-name>
 		- Delete a file: $ rm <file -name>
-	- Feel free to play around with all the commands in your week 1 branch!
+	- Feel free to play around with all the commands in your week 1 folder!
 
 -------------------------------------------------------------------------
 Homework:
-	- Edit this blankInfo.txt and rename it to self_introduction.txt
+	- Edit this week1assignment.txt and rename it to firstname_introduction.txt
 	- To edit text file in a text editor:
 		$ nano blankInfo.txt
 
@@ -113,9 +113,13 @@ Top Projects:
 - Short Description:
 - Skills/Technology Used:
 
+(add more lines if needed)
+
 Experiences:
+
 What are some fun/ social topics you would be interested in 
 conducting research on or creating data visualizations for?:
+
 Things that you would like us to know:
 
 --------------------------------------------------------
@@ -128,8 +132,8 @@ Things that you would like us to know:
 ---------------------------------------------------------
 Now
 1. Press Ctrl + O (WriteOut)
-2. Change the filename to self_introduction.txt
-3. Press Ctrl + X (Exit nano text editor)
+2. Press Ctrl + X (Exit nano text editor)
+3. Change file name to firstname_introduction.txt
 ---------------------------------------------------------
 Congrats on Finishing Homework 01!!!!! Welcome to PD!!!!!
 ---------------------------------------------------------
@@ -137,10 +141,10 @@ Assignment Submission Workflow:
 
 To add changes to the working directory:
 	- $ git add . #stage all changes
-	- $ git add self_introduction.txt # to only stage changes in the mentioned file
+	- $ git add firstname_introduction.txt # to only stage changes in the mentioned file
 To record staged changes to the repository history:
 	- $ git commit -m"<informative message>"
- 	- EX: $ git commit -m"finished homework 01"
+ 	- EX: $ git commit -m"PD week1 submission"
 To push local commits to remote repository:
 	- $ git push origin main # push the changes to main branch
 To check status of your current working tree:
