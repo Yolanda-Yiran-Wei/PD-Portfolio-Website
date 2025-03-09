@@ -93,10 +93,10 @@ Complete the text file, feel free to add new lines:
 -------------------------------------------------------------------------
 Self Introduction (required)
 
-Name:
-Pronouns:
-Major/Intended Major:
-Year:
+Name: Yolanda Wei
+Pronouns: She/Her
+Major/Intended Major: Applied Mathematics
+Year: Freshman
 Dream Career:
 Hobbies:
 Skills:
